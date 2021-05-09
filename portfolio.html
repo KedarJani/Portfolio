@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<style>
+.navbar{
+    position: absolute;
+    width: 1550px;
+    height: 141px;
+    left: 0px;
+    top: 0px;
+    background: #311249;
+    }
+#logo{
+    position: absolute;
+    width: 216px;
+    height: 141px;
+    left: 0px;
+    top: 0px;
+}
+#profile{
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    left: 381px;
+    top: 85px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #DB6262;
+ }
+ 
+#profile:hover{
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    left: 381px;
+    top: 80px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #bd5454;
+}
+#project{
+    position: absolute;
+    width: 627px;
+    height: 56px;
+    left: 581px;
+    top: 85px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #DB6262;
+}
+#project:hover{
+    position: absolute;
+    width: 627px;
+    height: 56px;
+    left: 581px;
+    top: 80px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color:  #bd5454;
+}
+#skills{
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    left: 812px;
+    top: 85px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #DB6262;
+}
+ #skills:hover{
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    left: 812px;
+    top: 80px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #bd5454;
+ }
+#cont{
+    position: absolute;
+    width: 333px;
+    height: 56px;
+    left: 968px;
+    top: 85px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #DB6262;
+}
+#cont:hover{
+    position: absolute;
+    width: 333px;
+    height: 56px;
+    left: 968px;
+    top: 80px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #bd5454;
+} 
+.container{
+    position: absolute;
+    width: 1550px;
+    height: 887px;
+    left: 0px;
+    top: 137px;
+    background: #030303;
+}
+#tlellipse{
+    position: absolute;
+    width: 168px;
+    height: 162px;
+    left: 0px;
+    top: 162px;
+    background: rgba(255, 249, 102, 0.1);
+    filter: blur(4px);
+    border-radius: 100px;
+}
+#trellipse{
+    position: absolute;
+    width: 170px;   
+    height: 162px;
+    left: 937px;
+    top: 162px;
+    background: rgba(255, 102, 102, 0.1);
+    filter: blur(4px);
+    border-radius: 100px;
+}
+#photo{
+    position: absolute;
+    width: 629px;
+    height: 584px;
+    left: 86px;
+    top: 243px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-blend-mode: screen;
+}
+#text{
+    position: absolute;
+    width: 423px;
+    height: 190px;
+    left: 895px;
+    top: 345px;
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    display: flex;
+    align-items: flex-end;
+    color: #e6dfdf;
+}
+#butt{
+    position: absolute;
+    width: 185px;
+    height: 69px;
+    left: 950px;
+    top: 583px;
+    background: #57DD9C;
+    border-radius: 8px;
+}
+
+#linker{
+    position: absolute;
+    width: 153px;
+    height: 46px;
+    left: 968px;
+    top: 595px;
+    font-family: Paprika;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #070707;
+}
+#linker:hover{
+    position: absolute;
+    width: 153px;
+    height: 46px;
+    left: 968px;
+    top: 592px;
+    font-family: Paprika;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #424040;
+}
+#brellipse{
+    position: absolute;
+    width: 677px;
+    height: 691px;
+    left: 1045px;
+    top: 618px;
+    background: rgba(102, 255, 255, 0.1);
+    filter: blur(4px);
+    border-radius: 400px;
+}
+#blellipse{
+    position: absolute;
+    width: 168px;
+    height: 162px;
+    left: -27px;
+    top: 883px;
+    background: rgba(228, 217, 217, 0.1);
+    border-radius: 400px;;
+    filter: blur(4px);
+}
+jump{
+color: #6dd4b1;
+transition: all 0.2s linear;
+}
+jump:hover, jump:focus {
+color: #357099;
+}
+</style>
+<body>
+<div class="navbar">
+    <img id="logo" src="logo.png" alt="should have been a logo here">
+    <a id="profile" href="portfolio.html">Profile</a>
+    <a id="project" href="https://github.com/?KedarJani" target="_blank">Projects</a>
+    <a id="skills" href="next.html" target="_blank">Skills</a>
+    <a id="cont" href="next.html" target="_blank">Contact Me</a>
+</div>
+<div class="container">
+    <img id="photo" src="photo.jpeg" alt="So sorry  cant find my best photo!">
+    <div id="tlellipse"> </div>
+    <div id="trellipse"></div>
+    <div id="text">
+        A Novice, Tech Enthusiast,Active Learner, Innovator And Leader.
+    </div>
+    <div id="butt"></div><a id="linker" href="Kedar_Jani_Resume.pdf" target="_blank">Know More.</a>
+    <div id="brellipse"></div>
+    <div id="blellipse"></div>
+    <div id="jump"> my skills</div>
+</div>
+    
+</body>
+</html>
